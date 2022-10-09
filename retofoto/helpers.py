@@ -23,3 +23,6 @@ class Helper:
 
     def ip_longitudinal_compare(self):
         pass
+
+    def detect_port_server_type(self):
+        pass

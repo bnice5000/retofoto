@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 
-""" retrofoto main for OPSC-540 final project
+"""retrofoto main for OPSC-540 final project
 
 Scan network and look for active servers with open network ports
 
@@ -17,6 +17,10 @@ __note__ = "This is experimental and could use error handling. Use at your own p
 
 
 def main():
+    """This is the man function.
+
+    There will be a very high level driver script that kicks off the helper classes and server data structures.
+    """
     pass
 
 

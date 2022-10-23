@@ -15,6 +15,8 @@ __status__ = "Assignment"
 __note__ = "This is experimental and could use error handling. Use at your own peril!"
 """
 
+import sqlalchemy
+
 
 class Helper:
     """These are the helper classes.
@@ -57,7 +59,7 @@ class Helper:
         Args:
             fine_name (str, optional): The file name of the database to initialize. Defaults to None.
         """
-        pass
+        db = sqlalchemy.create_engine("sqlite:///retofoto.db")
 
     def read_database(self):
         """The implementation to read the database"""

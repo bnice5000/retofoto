@@ -1,0 +1,8 @@
+greenlet
+icmplib
+netifaces
+pip-chill
+SQLAlchemy
+SQLAlchemy-Utils
+termcolor-whl
+yaspin
